@@ -7,13 +7,14 @@ slug: /
 :::note
 
 ・変更ファイル：test.md
-・branch名：test-commit
+・branch名：test-main
 
 【Git push実行結果】
     ・PR作成画面でbasebranch「gh-pages」を選択すると、PR作成ボタンが表示されない<br>
     　（他のbasebranchではPR作成ボタンが表示される  
     ----  
-    ・test_commit からPUSH
+    ・test_main からPUSH→mainへマージ  
+    ・mainからfrom_mainディレクトリへクローン  
 :::
 
 ### ローカルから yarn でビルド、デプロイ
