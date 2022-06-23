@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [ '/document/**' ]
+    paths: [ 'document/**' ]
   pull_request:
     branches: [main]
-    paths: [ '/document/**' ]
+    paths: [ 'document/**' ]
 
 env:
   # websiteのあるフォルダ
-  SOURCE_FOLDER: /document
+  SOURCE_FOLDER: /
 
 jobs:
   checks:
