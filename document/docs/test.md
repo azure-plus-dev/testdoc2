@@ -11,8 +11,7 @@ slug: /
 
 【Git push実行結果】
     ・PR作成画面でbasebranch「gh-pages」を選択すると、PR作成ボタンが表示されない<br>
-    　（他のbasebranchではPR作成ボタンが表示される  
-    ----  
+    　（他のbasebranchではPR作成ボタンが表示される)<br>
     ・test_main からPUSH→mainへマージ  
     ・mainからfrom_mainディレクトリへクローン  
 :::
