@@ -11,7 +11,7 @@ on:
 
 env:
   # websiteのあるフォルダ
-  SOURCE_FOLDER: ./document
+  SOURCE_FOLDER: document/
 
 jobs:
   checks:
