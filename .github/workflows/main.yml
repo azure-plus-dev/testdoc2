@@ -8,7 +8,11 @@ on:
   pull_request:
     branches: [main]
     paths: [ 'document/**' ]
-
+env:
+  # websiteのあるフォルダ
+  SOURCE_FOLDER: /
+  passphrase: ${{ secrets.SSH_PASS }}
+  
 jobs:
   checks:
     if: github.event_name != 'push'
