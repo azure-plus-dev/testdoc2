@@ -9,9 +9,9 @@ on:
     branches: [main]
     paths: [ 'document/**' ]
 
-#env:
+env:
   # websiteのあるフォルダ
-#  SOURCE_FOLDER: /
+  SOURCE_FOLDER: /
 
 jobs:
   checks:
