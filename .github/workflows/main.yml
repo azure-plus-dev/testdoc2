@@ -1,4 +1,4 @@
-name: Docusaurus_dep
+name: Docusaurus_dep2
 
 on:
   workflow_dispatch:
