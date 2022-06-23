@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     # paths: [website/**]
-    paths: [sorce/**]
+    paths: [docutemt/**]
   workflow_dispatch:
 
 jobs:
@@ -18,9 +18,9 @@ jobs:
           node-version: 14.x
           cache: yarn
       # name: Build website
-      - name: Build sorce
+      - name: Build docutemt
       # working-directory: website
-        working-directory: sorce
+        working-directory: docutemt
         run: |
           yarn install --frozen-lockfile
           yarn build
