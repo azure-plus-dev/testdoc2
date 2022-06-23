@@ -2,6 +2,8 @@
 slug: /
 ---
 
+:::cautions
+:::
 ### gitコマンドでプッシュする
 
 :::note
