@@ -24,13 +24,13 @@ jobs:
           node-version: '16.x'
       - name: Test Build
         run: |
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
+          #if [ -e yarn.lock ]; then
+          #  yarn install --frozen-lockfile
+          #elif [ -e package-lock.json ]; then
+          #  npm ci
+          #else
+          #  npm i
+          #fi
           npm run build
         working-directory: ${{env.SOURCE_FOLDER}}
   gh-release:
