@@ -41,7 +41,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - uses: azure-plus-dev/ssh-agent@v0.1
+      - uses: azure-plus-dev/ssh-agent@v0.1.0
         with:
           username: ${{ secrets.SERVER_USERNAME }}
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
