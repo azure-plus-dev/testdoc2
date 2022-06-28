@@ -40,8 +40,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
-      - uses: webfactory/ssh-agent@v0.5.0
+          node-version: '16.x'
+      - uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
@@ -49,8 +49,8 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "xxx@yyy"
-          git config --global user.name "zzz"
+          git config --global user.email "ikeshiro@azure-plus.co.jp"
+          git config --global user.name "IkeshiroHirono"
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
