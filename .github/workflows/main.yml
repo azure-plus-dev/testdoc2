@@ -11,7 +11,7 @@ on:
 env:
   # websiteのあるフォルダ
   SOURCE_FOLDER: /
-  passphrase: ${{ secrets.SSH_PASS }}
+  #passphrase: ${{ secrets.SSH_PASS }}
   
 jobs:
   checks:
